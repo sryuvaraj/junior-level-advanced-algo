@@ -5,7 +5,7 @@ var target = 18;
 var arr = [];
 var count = 0;
 for (let i = 0; i < input.length; i++) {
-  for (let j = ; i < input.length; i++) {
+  for (let j = 1; i < input.length; i++) {
     var sum = input[i] + input[j];
     if (sum === target) {
       arr[0] = input[i];
