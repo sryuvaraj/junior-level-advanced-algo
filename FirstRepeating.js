@@ -2,12 +2,12 @@
 
 const input = [1,2,3,2,4]
 
-var result = []
+var arr = []
 var count = 0
 var ex = input[0]
 for(el of input){
     var bool = false
-    for(e of result){
+    for(e of arr){
         if(el === e){
             bool = true
         }
@@ -17,7 +17,7 @@ for(el of input){
         break
     }
     else{
-        result[count]=el
+        arr[count]=el
         count++
     }
 }
